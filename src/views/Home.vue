@@ -1,7 +1,7 @@
 <template>
 <div class="home" >
   <div @click="reroll()" v-if='renderCheck(mealInfo.idMeal) == true'>
-    <button>Reroll</button>
+    <button>Change meal</button>
   </div>
   <div>
     <h1><a :href="mealInfo.strYoutube">{{mealInfo.strMeal}}</a></h1>
